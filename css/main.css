@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(0deg, #519ecd 10%, rgba(255, 255, 255, 1) 90%); 
+    background-attachment: fixed;
+    text-align: center;
+    font-family: beirut;
+}
+.main {
+    width: 300px;
+    max-width: 80%;
+    margin: 10% auto;
+    border-radius: 4px;
+}
+.main .logo img {
+    width: 100px;
+}
+.main .title img {
+    width: 120px;
+}
+.main .form .fields .checkbox{
+    display: block;
+    height: 50px;
+    margin-top: -15px;
+}
+.main .form .fields .checkbox #checkBox {
+    float: left;
+}
+.main .form .fields .checkbox label {
+    text-align: left;
+    float: left;
+    font-size: 12px;
+    color: #0079a6;
+    font-size: 12px;
+}
+.main .btns input {
+    width: 80px;
+    height: 22px;
+    margin: 7px auto;
+    padding: 0px;  
+    text-align: center !important;  
+}
+.simpleInput {
+    font-family: beirut;
+    width: 90%;
+    text-align: left !important;
+    outline: none;
+    border: 1px solid #0079a6;
+    border-radius: 8px;
+    color: #0079a6 !important;
+    background: rgba(0,0,0,0) !important;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    display: block;
+    margin: 20px auto;
+}
+.simpleInput::placeholder {
+    color: #0079a6;
+    opacity: 1;
+}
