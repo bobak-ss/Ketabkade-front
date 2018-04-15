@@ -3,10 +3,11 @@ body {
     background-image: -moz-linear-gradient(0deg, #519ecd 10%, rgba(255, 255, 255, 1) 90%); 
     background-image: -o-linear-gradient(0deg, #519ecd 10%, rgba(255, 255, 255, 1) 90%); 
     background-image: linear-gradient(0deg, #519ecd 10%, rgba(255, 255, 255, 1) 90%); 
-    background-attachment: fixed;
-    background-repeat: repeat-y;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: bottom;
     width: 100wh;
-	height: 90vh;
+	height: 100vh;
     text-align: center;
     font-family: beirut;
 }
