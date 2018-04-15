@@ -37,6 +37,8 @@ body {
     margin: 7px auto;
     padding: 0px;  
     text-align: center !important;  
+    background-color: hsla(200, 90%, 55%, 1) !important;
+    border: none;
 }
 .simpleInput {
     font-family: beirut;
