@@ -753,9 +753,11 @@
 body {
   background: #f1f2f7;
   display: table;
-  font-family: 'Open Sans' sans-serif !important;
   font-size: 16px;
-  width: 100%; }
+  width: 100%;
+  /* ketabkade */
+  text-align: right;
+  font-family: beirut !important; }
 
 div[class*="col-"] {
   float: left; }
@@ -811,7 +813,9 @@ button,
 input,
 textarea {
   box-shadow: none;
-  outline: 0 !important; }
+  outline: 0 !important;
+  /* ketabkade */
+  text-align: right; }
 
 .no-padding {
   padding: 0 !important; }
@@ -1078,7 +1082,14 @@ body.open .navbar .navbar-brand.hidden {
   -moz-transition: all .35s ease;
   -ms-transition: all .35s ease;
   -o-transition: all .35s ease;
-  transition: all .35s ease; }
+  transition: all .35s ease;
+  /* ketabkade */
+  background-image: -webkit-linear-gradient(0deg, #519ecd 10%, white 90%);
+  background-image: -moz-linear-gradient(0deg, #519ecd 10%, white 90%);
+  background-image: -o-linear-gradient(0deg, #519ecd 10%, white 90%);
+  background-image: linear-gradient(0deg, #519ecd 10%, white 90%);
+  background-repeat: no-repeat;
+  background-position: bottom; }
   .right-panel .breadcrumbs {
     background-color: #fff;
     display: inline-block;
@@ -1125,16 +1136,16 @@ header.fixed-top {
   position: inherit; }
 
 .menutoggle {
-  background: #e74c3c;
+  background: #519ecd;
   border-radius: 50%;
   color: #fff !important;
   cursor: pointer;
   font-size: 18px;
   height: 43px;
   line-height: 44px;
-  margin: -2px 20px 0 -57px;
   text-align: center;
-  width: 43px; }
+  width: 43px;
+  margin: -2px 20px 0 -137px; }
 
 .open .menutoggle i:before {
   content: "\f0a4"; }
@@ -1281,17 +1292,18 @@ header .form-inline {
   .user-area .user-menu {
     background: #fff;
     border: none;
-    font-family: 'Open Sans';
+    font-family: beirut;
     left: inherit !important;
-    right: 0;
     top: 55px !important;
     margin: 0;
-    max-width: 150px;
     padding: 5px 10px;
     position: absolute;
     width: 100%;
     z-index: 999;
-    min-width: 150px; }
+    /* ketabkade */
+    text-align: center;
+    min-width: 100px;
+    max-width: 100px; }
     .user-area .user-menu .nav-link {
       color: #272c33;
       display: block;
@@ -2236,5 +2248,8 @@ header .form-inline {
           padding: 0; }
         .right-panel .content #bootstrap-data-table_wrapper .table td, .right-panel .content #bootstrap-data-table_wrapper .table th {
           padding: 5px; } }
+/* ketabkade */
+.text-align-center {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
