@@ -2252,4 +2252,10 @@ header .form-inline {
 .text-align-center {
   text-align: center; }
 
+.max-height-150 {
+  max-height: 150px; }
+
+.modal .close {
+  margin: -1rem auto -1rem -1rem !important; }
+
 /*# sourceMappingURL=style.css.map */

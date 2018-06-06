@@ -50,7 +50,6 @@ body {
 .simpleInput {
     font-family: beirut;
     width: 90%;
-    text-align: left !important;
     outline: none;
     border: 1px solid #0079a6;
     border-radius: 8px;
