@@ -1293,6 +1293,7 @@ header .form-inline {
     background: #fff;
     border: none;
     font-family: beirut;
+    right: 0;
     left: inherit !important;
     top: 55px !important;
     margin: 0;
@@ -2253,9 +2254,33 @@ header .form-inline {
   text-align: center; }
 
 .max-height-150 {
-  max-height: 150px; }
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 10%; }
 
 .modal .close {
   margin: -1rem auto -1rem -1rem !important; }
+
+.remove-btn {
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -10px; }
+  .remove-btn a {
+    width: 100%;
+    height: 100%;
+    display: block; }
+    .remove-btn a i {
+      width: 100%;
+      height: 100%;
+      display: block;
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      margin: 4px auto; }
 
 /*# sourceMappingURL=style.css.map */
