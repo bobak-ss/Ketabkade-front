@@ -1,3 +1,71 @@
+/* ketabkade */
+@import url(../css/animate.css);
+.text-align-center {
+  text-align: center; }
+
+.max-height-150 {
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 10%; }
+
+.modal .close {
+  margin: -1rem auto -1rem -1rem !important; }
+
+.remove-btn {
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -10px; }
+  .remove-btn a {
+    width: 100%;
+    height: 100%;
+    display: block; }
+    .remove-btn a i {
+      width: 100%;
+      height: 100%;
+      display: block;
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      margin: 4px auto; }
+
+.capsul-btn {
+  background: #222;
+  border-radius: 10px;
+  height: 35px;
+  text-align: right;
+  direction: rtl;
+  margin-right: 10px; }
+  .capsul-btn a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .capsul-btn a p {
+      padding: 5px;
+      color: white;
+      margin-left: 35px; }
+    .capsul-btn a i {
+      font-size: 25px;
+      margin: 2px;
+      color: white;
+      display: block;
+      position: absolute;
+      left: 3px;
+      top: 3px; }
+
+.add-book {
+  background: #00c700; }
+
+.add-req {
+  background: #a700a7; }
+
+.add-friend {
+  background: #5154cd; }
+
 /* This css file is to over write bootstarp css
 --------------------------------------------------------- /
 * Theme Name: Sufee-Admin Admin Template
@@ -11,7 +79,6 @@
 * Tags: html, themplate, Sufee-Admin
 --------------------------------------------------------- */
 /* Bootstrap */
-@import url(../css/animate.css);
 .gaugejs-wrap {
   position: relative;
   margin: 0 auto; }
@@ -2249,38 +2316,5 @@ header .form-inline {
           padding: 0; }
         .right-panel .content #bootstrap-data-table_wrapper .table td, .right-panel .content #bootstrap-data-table_wrapper .table th {
           padding: 5px; } }
-/* ketabkade */
-.text-align-center {
-  text-align: center; }
-
-.max-height-150 {
-  max-height: 150px;
-  max-width: 150px;
-  border-radius: 10%; }
-
-.modal .close {
-  margin: -1rem auto -1rem -1rem !important; }
-
-.remove-btn {
-  width: 30px;
-  height: 30px;
-  background: red;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  top: -10px;
-  left: -10px; }
-  .remove-btn a {
-    width: 100%;
-    height: 100%;
-    display: block; }
-    .remove-btn a i {
-      width: 100%;
-      height: 100%;
-      display: block;
-      font-size: 20px;
-      text-align: center;
-      color: #fff;
-      margin: 4px auto; }
 
 /*# sourceMappingURL=style.css.map */
