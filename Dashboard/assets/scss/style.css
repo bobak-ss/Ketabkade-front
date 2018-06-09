@@ -1222,10 +1222,11 @@ header.fixed-top {
   border: none;
   color: #272c33;
   cursor: pointer;
-  font-size: 16px;
   height: 41px;
   width: 43px;
-  line-height: 38px; }
+  line-height: 38px;
+  /* ketabkade */
+  font-size: 20px; }
 
 header .form-inline {
   background: #263238;
@@ -1286,19 +1287,21 @@ header .form-inline {
     background: transparent;
     border: none;
     color: #272c33;
-    font-size: 16px; }
+    /* ketabkade */
+    font-size: 20px; }
     .header-left .dropdown .dropdown-toggle:after {
       display: none; }
     .header-left .dropdown .dropdown-toggle .count {
       border-radius: 50%;
       color: #fff;
-      font-size: 11px;
-      height: 15px;
-      width: 15px;
-      line-height: 15px;
       right: 0;
       top: 0;
-      position: absolute; }
+      position: absolute;
+      /* ketabkade */
+      font-size: 20px;
+      height: 20px;
+      width: 20px;
+      line-height: 20px; }
     .header-left .dropdown .dropdown-toggle:active, .header-left .dropdown .dropdown-toggle:focus, .header-left .dropdown .dropdown-toggle:visited {
       background: none !important;
       border-color: transparent !important;
