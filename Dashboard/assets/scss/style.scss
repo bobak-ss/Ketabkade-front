@@ -216,7 +216,7 @@ aside.left-panel {
         width: 100%;
     }
     .navbar-brand {
-        border-bottom: 1px solid #4e4e52;
+        //border-bottom: 1px solid #4e4e52;
         color: #f1f2f7 !important;
         font-family: 'Open Sans';
         font-size: 22px;
@@ -232,6 +232,8 @@ aside.left-panel {
         justify-content: center;
         align-items: center;
         position: relative;
+        /* ketabkade */
+        border: none;
         span {
             font-weight: 600;
         }
@@ -273,12 +275,16 @@ aside.left-panel {
                 background: none !important;
                 color: #c8c9ce !important;
                 display: inline-block;
-                font-family: 'Open Sans';
-                font-size: 14px;
+                //font-family: 'Open Sans';
+                //font-size: 14px;
                 line-height: 30px;
                 padding: 10px 0;
                 position: relative;
                 width: 100%;
+                /* ketabkade */
+                font-family: beirut;
+                font-size: 16px;
+                border-bottom: 0.7px solid #808080;
                 &:hover,
                 &:hover .menu-icon {
                     color: #fff !important;
