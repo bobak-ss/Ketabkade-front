@@ -937,8 +937,6 @@ aside.left-panel {
     border: none; }
     .navbar .navbar-brand span {
       font-weight: 600; }
-    .navbar .navbar-brand img {
-      max-width: 160px; }
     .navbar .navbar-brand.hidden {
       display: none; }
   .navbar .menu-title {
